@@ -118,6 +118,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .navbar {
+    padding: 20px 0px !important;
+  }
   .hero-section {
     flex-direction: column;
     justify-content: center;
@@ -125,8 +128,8 @@ body {
     padding: 20px 0;
   }
   .hero-img img {
-    width: 541px;
-    height: 352px;
+    width: 530px;
+    height: 320px;
   }
 }
 
@@ -154,6 +157,12 @@ body {
 @media screen and (max-width: 744px) {
   .carousel-item img {
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-item img {
+    height: 275px;
   }
 }
 .carousel-caption h5 {
@@ -322,7 +331,13 @@ body {
     align-items: center;
   }
 }
-
+@media screen and (max-width: 576px) {
+  .student-details {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0;
+  }
+}
 /* learn topic */
 .item-heading h1 {
   color: #5a20cb;
@@ -425,6 +440,14 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 576px) {
+  .hackathon-text h1 {
+    font-size: 30px;
+  }
+  .hackathon .companies img {
+    width: 190px;
+  }
+}
 /* tech avengers */
 
 .tech-avengers {
@@ -475,7 +498,17 @@ body {
     justify-content: center;
   }
 }
-
+@media screen and (max-width: 576px) {
+  .teacher {
+    width: 300px;
+  }
+  .tech-avengers {
+    padding: 0 0px 30px 0px;
+  }
+  .tech-heading h1 {
+    font-size: 48px;
+  }
+}
 /* footer section */
 
 .footer {
@@ -485,10 +518,10 @@ body {
   background-color: #243c7b;
   padding: 60px 60px;
 }
-.footer img {
+.footer-logos img {
   margin-right: 5px;
 }
-.footer img:nth-child(1) {
+.footer-logos img:nth-child(1) {
   margin-right: 10px;
 }
 
@@ -517,9 +550,16 @@ body {
   .footer {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
   }
-
+  .footer img:nth-child(1) {
+    width: 122px;
+  }
   .footer-logo img {
     margin-top: 40px;
+  }
+  .footer-text p {
+    font-size: 18px;
   }
 }
